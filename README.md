@@ -1,17 +1,32 @@
 # Agent Interoperability Protocol (AIP)
 
-> **A standardized protocol for AI Agent communication and collaboration**
+> **A lightweight learning project exploring AI Agent communication**
 
 [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow.svg)]()
+[![Status: Learning Project](https://img.shields.io/badge/Status-Learning%20Project-blue.svg)]()
 
 English | [简体中文](./README_CN.md)
+
+## ⚠️ Important Note
+
+**This is a learning project.** After starting this project, we discovered [Google's A2A Protocol](https://github.com/google/A2A), which is a mature, production-ready solution backed by the Linux Foundation.
+
+**We recommend using Google A2A for production use.**
+
+This project will continue as:
+- 📚 A learning resource for understanding agent communication
+- 🔬 A lightweight experimental implementation
+- 🎯 A foundation for building simplified agent systems
+
+We will reference Google A2A's design and potentially create a lightweight version suitable for specific use cases.
+
+---
 
 ## 🎯 Vision
 
 Imagine a world where AI Agents from different platforms can discover each other, communicate, and collaborate seamlessly—just like humans do across different companies and organizations.
 
-**Agent Interoperability Protocol (AIP)** makes this possible.
+**Agent Interoperability Protocol (AIP)** explores this possibility through a simple, educational implementation.
 
 ## 🚀 Quick Demo
 
@@ -51,23 +66,39 @@ designAgent.on('messageReceived', (msg) => {
 
 **Result**: Two agents from potentially different platforms just formed a team! 🤝
 
-## 🌟 Why AIP?
+## 🌟 Why This Project?
 
-### Current Problems
+### Learning Goals
 
-- **Agent Silos**: Each platform has its own proprietary agent system
-- **No Interoperability**: Agents can't communicate across platforms
-- **Duplicate Work**: Everyone reinvents the same communication patterns
-- **Trust Issues**: No standard way to verify agent capabilities
-- **Integration Hell**: Custom integration for every platform
+This project was created to:
+- 📚 **Understand** agent communication patterns
+- 🔬 **Experiment** with WebSocket-based agent messaging
+- 🎓 **Learn** protocol design principles
+- 🛠️ **Build** a working prototype from scratch
 
-### AIP Solution
+### Comparison with Google A2A
 
-- ✅ **Universal Protocol**: One standard for all platforms
-- ✅ **Peer-to-Peer**: Agents communicate directly, no middleman
-- ✅ **Capability-Based**: Agents declare what they can do
-- ✅ **Reputation Portable**: Build reputation once, use everywhere
-- ✅ **Simple & Extensible**: Easy to implement, room to grow
+After starting this project, we discovered [Google's A2A Protocol](https://github.com/google/A2A), which is far more mature:
+
+| Feature | AIP (This Project) | Google A2A |
+|---------|-------------------|------------|
+| **Maturity** | Learning prototype | Production-ready |
+| **Backing** | Individual project | Linux Foundation |
+| **SDKs** | TypeScript only | Python, Go, JS, Java, .NET |
+| **Protocol** | Custom JSON | Protocol Buffers + JSON-RPC 2.0 |
+| **Enterprise** | ❌ | ✅ (Auth, Security, Observability) |
+| **Documentation** | Basic | Comprehensive + DeepLearning.AI course |
+| **Use Case** | Learning & experimentation | Production systems |
+
+**Recommendation**: For production use, please use [Google A2A](https://github.com/google/A2A).
+
+### Our Focus Going Forward
+
+This project will evolve into:
+1. **Educational Resource** - Simple examples for learning agent communication
+2. **Lightweight Alternative** - Minimal implementation for specific use cases
+3. **Experimentation Platform** - Testing ideas before implementing in A2A
+4. **Bridge to A2A** - Potentially create simplified wrappers around Google A2A
 
 ## 📦 What's Included
 
@@ -263,15 +294,21 @@ Special thanks to:
 
 ## 🔗 Related Projects
 
-- [Adventurer's Guild](https://github.com/your-org/adventurers-guild) - The platform that inspired AIP
+### Production-Ready Solutions
+- **[Google A2A Protocol](https://github.com/google/A2A)** ⭐ - The mature, production-ready agent communication protocol (Recommended for production use)
+- [Google A2A Documentation](https://google.github.io/A2A/) - Official documentation and guides
+- [DeepLearning.AI A2A Course](https://www.deeplearning.ai/) - Official course on using A2A
+
+### Other Projects
+- [Adventurer's Guild](https://github.com/BrathonBai/adventurers-guild) - The platform that inspired this project
 - [OpenClaw](https://openclaw.ai) - AI agent orchestration framework
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agents
 - [LangChain](https://github.com/langchain-ai/langchain) - Building applications with LLMs
 
 ---
 
-**Built with ❤️ by the Agent Interoperability Community**
+**Built with ❤️ by Brathon & ORION**
 
-**Status**: 🚧 Work in Progress - Feedback Welcome!
+**Status**: 🎓 Learning Project - Exploring agent communication concepts
 
-[⭐ Star us on GitHub](https://github.com/your-org/aip-protocol) | [📖 Read the RFC](./RFC_AIP.md) | [💬 Join the Discussion](https://github.com/your-org/aip-protocol/discussions)
+**For production use, please consider [Google A2A](https://github.com/google/A2A)**
